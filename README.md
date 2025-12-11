@@ -1,5 +1,7 @@
 # Missile Guidance & Navigation Control (GNC) System
 
+Video
+
 [![GNC Missile Demo](https://img.youtube.com/vi/TMJZxYzgdYg/maxresdefault.jpg)](https://youtu.be/TMJZxYzgdYg)
 
 ## What This Does
@@ -13,7 +15,6 @@ The missile follows terrain-hugging paths or ballistic trajectories by minimizin
 
 LQR drives this error to zero by computing optimal control inputs `u = -K(x - x_ref)`
 
-```
 
 ## Core Control Architecture
 
